@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipoogle - The Google Wikipedia Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="landing">
+	<div class="cover">
+	</div>
+
+	<div class="slide-out-menu">
+		<img id="mobile-logo" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1881235/wikipoogle.png' alt='Wikipoogle Logo' alt=''>
+		<ul>
+			<a href="https://codepen.io/Daniel-Bailey/live/WJEggX"><li><i class="fas fa-home menu-icon"></i>Home</li></a>
+			<a href="https://www.wikipedia.org/" target="_blank"><li><i class="fab fa-wikipedia-w menu-icon"></i>Wikipedia</li></a>
+		</ul>
+		<hr>
+		<p>Follow me on my journey.</p>
+		<ul>
+			<a href="https://www.linkedin.com/in/daniel-j-bailey/" target="_blank"><li><i class="fab fa-linkedin menu-icon"></i>LinkedIn</li></a>
+			<a href="https://www.instagram.com/daniel.bailey/" target="_blank"><li><i class="fab fa-instagram menu-icon"></i> Instagram</li></a>
+			<a href="https://codepen.io/Daniel-Bailey/" target="_blank"><li><i class="fab fa-codepen menu-icon"></i>CodePen</li></a>
+			<a href="https://github.com/DanielJBailey" target="_blank"><li><i class="fab fa-github-square menu-icon"></i>GitHub</li></a>
+		</ul>
+	</div>
+	<div class="menu-wrapper">
+		<div class="menu-open">
+			<i class="fas fa-bars menu-open-button"></i>
+		</div>
+		<div class="menu">
+			<a href="https://www.instagram.com/daniel.bailey/" target="_blank">
+				<p class="menu-item">Instagram</p>
+			</a>
+			<a href="https://codepen.io/Daniel-Bailey/" target="_blank">
+				<p class="menu-item">Codepen</p>
+			</a>
+			<a href="https://github.com/DanielJBailey" target="_blank">
+				<p class="menu-item">Github</p>
+			</a>
+			<a href="https://www.linkedin.com/in/daniel-j-bailey/" target="_blank">
+				<p class="menu-item">Linkedin</p>
+			</a>
+			<a href="https://www.danieljbailey.com" target="_blank"><img id="me" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1881235/22403492.jpg' alt='picture of Daniel Bailey'></a>
+		</div>
+	</div>
+	
+	<img id="logo" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1881235/wikipoogle.png' alt='Wikipoogle Logo'>
+	<form id="user-input-form">
+		<input type="search" id="search" class="search" placeholder='Search Wikipoogle' required/>
+
+		<div class="button-container">
+
+			<button class="wiki-button" type="submit" id="#submit">Wikipoogle Search</button>
+
+			<button onclick="window.open('https://en.wikipedia.org/wiki/Special:Random')" class="wiki-button">I'm Feeling Nerdy</button>
+		</div>
+	</form>
+	
+	<div>
+		<ul id="search-results">
+			
+		</ul>
+	</div>
+
+</div>
+
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
