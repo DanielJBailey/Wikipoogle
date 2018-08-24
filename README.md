@@ -1,5 +1,5 @@
 # Wikipoogle
-This is a wikipedia search engine inspired by Google. My goal for this project was to replicate the responsiveness of google's search engine regardless of device used to view the application. I used Wikipedia's API to search for a query the user enters. Results are then displayed back to the user in the same format as google. 
+A wikipedia search engine inspired by Google. My goal for this project was to replicate the responsiveness of google's search engine regardless of device used to view the application. I used Wikipedia's API to search for a query the user enters. Results are then displayed back to the user in the same format as google. 
 
 # View Demo
 [Live](https://www.danieljbailey.com/projects/wikipoogle/)
